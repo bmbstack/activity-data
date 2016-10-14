@@ -3,7 +3,7 @@ var cooking = require('cooking');
 
 cooking.set({
     entry: {
-        app: ['babel-polyfill', './src/main.js']
+        app: ['babel-polyfill', './src/app.js']
     },
     dist: './dist',
     template: './index.tpl',
@@ -29,7 +29,7 @@ cooking.set({
     alias: {
         'src': path.join(__dirname, 'src')
     },
-    extends: ['vue2', 'lint', 'less', 'autoprefixer']
+    extends: ['vue2', 'less', 'autoprefixer']
 });
 
 module.exports = cooking.resolve();

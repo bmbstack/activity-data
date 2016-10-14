@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import App from './app';
+import App from './components/app.vue';
 
 new Vue({ // eslint-disable-line
   el: '#app',
