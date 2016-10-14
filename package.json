@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "description": "susuan activity data",
   "private": false,
-  "keywords": [
-  ],
+  "keywords": [],
   "scripts": {
     "dev": "cooking watch -p",
     "dist": "cooking build -p",
@@ -25,6 +24,23 @@
     "babel-polyfill": "*"
   },
   "devDependencies": {
-    "cooking-vue2": "*"
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "cooking": "^1.0.0",
+    "cooking-autoprefixer": "^1.0.0",
+    "cooking-less": "^1.0.5",
+    "cooking-vue2": "*",
+    "css-loader": "^0.24.0",
+    "extract-text-webpack-plugin": "^1.0.0 || ^2.0.0-beta",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.9.0",
+    "json-loader": "^0.5.4",
+    "postcss": "^5.1.0",
+    "postcss-loader": "^0.11.1",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.0 || ^2.1.0-beta",
+    "webpack-dev-server": "^1.14.0 || ^2.1.0-beta"
   }
 }
