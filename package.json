@@ -1,0 +1,30 @@
+{
+  "name": "activity-data",
+  "version": "0.0.0",
+  "description": "susuan activity data",
+  "private": false,
+  "keywords": [
+  ],
+  "scripts": {
+    "dev": "cooking watch -p",
+    "dist": "cooking build -p",
+    "deploy": "cooking build --no-color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangmingjob/activity-data.git/activity-data.git"
+  },
+  "homepage": "https://github.com/wangmingjob/activity-data.git/activity-data#readme",
+  "bugs": {
+    "url": "https://github.com/wangmingjob/activity-data.git/activity-data/issues"
+  },
+  "author": "wangmingjob",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.0.1",
+    "babel-polyfill": "*"
+  },
+  "devDependencies": {
+    "cooking-vue2": "*"
+  }
+}
