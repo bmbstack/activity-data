@@ -1,9 +1,10 @@
 <template>
 	<div 
 		class="wrapper"
-		v-loading="loading"
+		v-loading.body="loading"
 		:style="{
-			height: minHeight + 'px'
+			height: minHeight + 'px',
+			overflow: loading? 'hidden': 'auto'
 		}">
 		<div class="container">
 			<h1>活动数据详情</h1>
@@ -51,7 +52,7 @@
 	    	getTotalData((response) => {
 	    		let { data } = response;
 
-	    		this.totalData = data.totalDay;
+	    		this.totalData = data;
 
 	    		this.loading = false;
 	    	});
