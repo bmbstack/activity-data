@@ -64,8 +64,18 @@
 	    	});
 	    	
 	    	// 获取二期数据
+	    	getSecondData((response) => {
+	    		let { data } = response;
+
+	    		this.secondData = data;
+	    	});
 
 	    	// 获取三期数据
+	    	getThirdData((response) => {
+	    		let { data } = response;
+
+	    		this.thirdData = data;
+	    	});
 	    }
 	};
 </script>
