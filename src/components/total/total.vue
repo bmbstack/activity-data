@@ -1,13 +1,13 @@
 <template>
   <div class="table_container">
-  	<h3>科学真好玩</h3>
+  	<h2>总体参赛人数</h2>
   	<el-table
   		stripe
-  		border
+        border
   		:data="data"
   		style="width: 100%">
   		<el-table-column
-  			property="date"
+  			property="days"
   			label="日期"></el-table-column>
   		<el-table-column
   			property="num"
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-	export default {
-		props: ['data']
-	};
+    export default {
+        props: ['data']
+    };
 </script>

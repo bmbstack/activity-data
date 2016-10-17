@@ -1,0 +1,22 @@
+@charset 'utf-8';
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Microsoft Yahei', 'Arial';
+}
+
+body {
+	overflow-y: scroll;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
