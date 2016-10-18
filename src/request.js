@@ -30,17 +30,17 @@ export function getTotalData(successCb) {
 	req('/third/back-total-info', successCb);
 };
 
-// 获取总体数据
+// 获取第一期数据
 export function getFirstData(successCb) {
 	req('/third/back-first-info', successCb);
 };
 
-// 获取总体数据
+// 获取第二期数据
 export function getSecondData(successCb) {
 	req('/third/back-second-info', successCb);
 };
 
-// 获取总体数据
+// 获取第三期数据
 export function getThirdData(successCb) {
 	req('/third/back-third-info', successCb);
 };

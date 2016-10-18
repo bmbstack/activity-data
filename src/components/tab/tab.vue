@@ -1,11 +1,11 @@
 <template>
-	<!-- <div class="tab">
+	<div class="tab">
 		<div
 			class="tab_button"
 			v-for="(n, index) in list"
 			@click="changeHandler(n, index)"
 			:class="{on: index === i}">{{n.label}}</div>
-	</div> -->
+	</div>
 </template>
 
 <script>

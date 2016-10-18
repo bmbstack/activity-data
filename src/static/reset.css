@@ -3,10 +3,12 @@
 html, body {
 	width: 100%;
 	font-family: 'Microsoft Yahei', 'Arial';
+	-webkit-tap-highlight-color: transparent;
 }
 
 body {
 	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 	margin: 0;
 	padding: 0;
 }
